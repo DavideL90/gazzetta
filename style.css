@@ -82,13 +82,39 @@ main{
 .column{
   float: left;
 }
-/* MENU A SINISTRA */
 .menuleft{
   width: 20%;
 }
-.menuleft h4{
+.center .right{
+  width: 30%;
+}
+/* MENU A SINISTRA */
+.menuleft ul{
+  list-style: none;
+  font-size: 11px;
+  font-family: Helvetica;
+  font-weight: bold;
+  position: relative;
+}
+.menuleft ul li{
   padding: 5% 0;
+}
+.menuleft h4{
+  font-size: 14px;
+  padding: 10% 0;
   border-top: 3px solid black;
   border-bottom: 1px solid lightgrey;
   border-right: 1px solid lightgrey;
+}
+ul #tennis{
+  display: inline-block;
+}
+ul span{
+  display: inline-block;
+  color: white;
+  padding: 4px;
+  margin: 2% 0;
+  background-color: red;
+  position: absolute;
+  right: 0;
 }
