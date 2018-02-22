@@ -3,3 +3,48 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #FDE9EB;
+  width: 100vw;
+}
+/* HEADER */
+header{
+  margin: 1% 15% 5%;
+  border: 3px solid black;
+}
+.video{
+  background-image: url("/img/video-preview1.jpg");
+  float:left;
+  background-size: cover;
+  width:20%;
+  height: 180px;
+  position: relative;
+}
+
+.playbar{
+  position: absolute;
+  bottom: 0;
+}
+.playbar .videodescription{
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  width:55%;
+}
+.playbutton{
+  display: inline-block;
+  border: 3px solid white;
+  border-radius: 3px;
+  width: 40px;
+  text-align: center;
+  position:absolute;
+  right: 0;
+}
+.playbutton img{
+  width: 25px;
+}
+header:after{
+  content: "";
+  display: table;
+  clear: both;
+}
