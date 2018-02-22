@@ -9,7 +9,7 @@ body{
 }
 /* HEADER */
 header{
-  margin: 1% 15% 5%;
+  margin: 1% 15% 3%;
   border: 3px solid black;
 }
 .video{
@@ -82,10 +82,12 @@ main{
 .column{
   float: left;
 }
-.menuleft{
+main .menuleft{
   width: 20%;
+  border-right: 1px solid lightgrey;
+
 }
-.center .right{
+.center.right{
   width: 30%;
 }
 /* MENU A SINISTRA */
@@ -96,15 +98,14 @@ main{
   font-weight: bold;
   position: relative;
 }
-.menuleft ul li{
-  padding: 5% 0;
+.menuleft ul li:nth-child(n+2){
+  padding: 3% 0;
 }
 .menuleft h4{
   font-size: 14px;
   padding: 10% 0;
   border-top: 3px solid black;
   border-bottom: 1px solid lightgrey;
-  border-right: 1px solid lightgrey;
 }
 ul #tennis{
   display: inline-block;
@@ -113,7 +114,7 @@ ul span{
   display: inline-block;
   color: white;
   padding: 4px;
-  margin: 2% 0;
+  margin: 2% 2%;;
   background-color: red;
   position: absolute;
   right: 0;
