@@ -4,20 +4,24 @@
   padding: 0;
 }
 body{
-  background-color: #FDE9EB;
+  background-color: black;
   width: 100vw;
 }
-/* HEADER */
+#megacontainer{
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #FDE9EB;
+}
+/* HEADER*/
 header{
-  margin: 1% 15% 3%;
-  border: 3px solid black;
+  padding: 2% 3% 3% 3%;
 }
 .video{
   float:left;
   background-size:cover;
   background-repeat: no-repeat;
   width:20%;
-  height: 115px;
+  height: 110px;
   position: relative;
 }
 header > .video:nth-child(-n+4){
@@ -77,7 +81,12 @@ header:after{
 }
 /* COLONNE */
 main{
-  margin: 0 15%;
+ padding: 0 3%;
+}
+main:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 .column{
   float: left;
@@ -119,3 +128,4 @@ ul span{
   position: absolute;
   right: 0;
 }
+/* COLONNA CENTRALE */
