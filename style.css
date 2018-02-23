@@ -265,3 +265,13 @@ ul span{
   font-size: 12px;
   font-weight: bold;
 }
+.right #ad{
+  margin-top: 10%;
+  background-color: #F3CACE;
+}
+.right #ad img{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10%;
+}
