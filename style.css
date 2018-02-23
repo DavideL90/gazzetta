@@ -234,17 +234,34 @@ ul span{
 .center .sidepicture.ontheright{
   margin-left: 2%;
 }
-.center .sidepicture h5{
+/* MODELLO DA RIUTILIZZARE SOTTO LE FOTO */
+.sidepicture h5{
   color: #F27800;
   font-size: 12px;
   font-weight: bold;
-  margin-bottom: 2%;
+  margin: 2% 0 2% 0;
 }
-.center .sidepicture h4{
+.sidepicture h4{
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 5%;
 }
-.center .sidepicture .otherarticle{
+.sidepicture .otherarticle{
   margin: 3% 0;
+}
+/* COLONNA DI DESTRA */
+.column.right .sidepicture h4{
+  font-size: 26px;
+  margin-bottom:3%;
+}
+.column.right .sidepicture #descrizione{
+  font-size: 15px;
+  margin-bottom: 3%;
+}
+.right hr{
+  margin: 3% 0;
+}
+.right #lastparagraph{
+  font-size: 12px;
+  font-weight: bold;
 }
