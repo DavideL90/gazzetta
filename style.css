@@ -23,6 +23,7 @@ header{
   width:20%;
   height: 130px;
   position: relative;
+  border: 5px solid black;
 }
 header > .video:nth-child(-n+4){
   border-right: 1px solid lightgrey;
@@ -210,9 +211,40 @@ ul span{
   font-size: 10px;
   padding: 1% 1.5%;
   background-color: #F27800;
+  color: white;
   border-radius: 3px;
   margin-right: 3%;
 }
 .lefttext.last{
   margin-left: 3%;
+}
+/* FOTO SOTTO FOTO GRANDE */
+.center .sidepicture{
+  margin-top: 5%;
+  width: 48%;
+  float: left;
+}
+.center .sidepicture img{
+  width: 100%;
+  height: 180px;
+}
+.center .sidepicture.ontheleft{
+  margin-right: 2%;
+}
+.center .sidepicture.ontheright{
+  margin-left: 2%;
+}
+.center .sidepicture h5{
+  color: #F27800;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.center .sidepicture h4{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.center .sidepicture .otherarticle{
+  margin: 3% 0;
 }
