@@ -6,9 +6,11 @@
 body{
   background-color: black;
   width: 100vw;
+  height: 100%;
 }
 #megacontainer{
   width: 1200px;
+  height: 100%;
   margin: 0 auto;
   background-color: #FDE9EB;
 }
@@ -29,19 +31,19 @@ header > .video:nth-child(-n+4){
   border-right: 1px solid lightgrey;
 }
 .video.first{
-  background-image: url("/img/video-preview1.jpg");
+  background-image: url("img/video-preview1.jpg");
 }
 .video.second{
-  background-image: url("/img/video-preview2.jpg");
+  background-image: url("img/video-preview2.jpg");
 }
 .video.third{
-  background-image: url("/img/video-preview3.jpg")
+  background-image: url("img/video-preview3.jpg")
 }
 .video.fourth{
-  background-image: url("/img/video-preview4.jpg")
+  background-image: url("img/video-preview4.jpg")
 }
 .video.fifth{
-  background-image: url("/img/video-preview5.jpg")
+  background-image: url("img/video-preview5.jpg")
 }
 .playbar{
   width: 100%;
@@ -81,6 +83,9 @@ header:after{
   clear: both;
 }
 /* COLONNE */
+main{
+  height: 100%;
+}
 main>*{
   margin: 0 2%;
 }
@@ -96,6 +101,7 @@ main:after{
   float:right;
 }
 main .menuleft{
+  height: 100%;
   width: 15%;
   border-right: 1px solid lightgrey;
 }
@@ -134,9 +140,14 @@ ul span{
   position: absolute;
   right: 0;
 }
+.containeroftwo:after{
+  content:"";
+  display: table;
+  clear: both;
+}
 /* COLONNA CENTRALE */
 #bigpicture{
-  background-image: url("/img/main-image.jpg");
+  background-image: url("img/main-image.jpg");
   background-size: 100%;
   height: 396px;
 }
