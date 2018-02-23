@@ -275,3 +275,13 @@ ul span{
   transform: translateX(-50%);
   padding: 10%;
 }
+#lastad{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+  padding: 0.5%;
+  background-color: #F3CACE;
+}
